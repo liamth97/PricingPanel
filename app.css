@@ -1,0 +1,19 @@
+html {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background-color: #60a9ff;
+	display: flex; /* Display flex, child items become flex items */
+	justify-content: center; /* Aligns items in center of main axis. Main axis is a row by default */
+	align-items: center; /* Aligns items in center of cross axis */
+	min-height: 100vh;
+}
+
+.panel {
+	background: white;
+	border-radius: 10px;
+	padding: 15px 25px;
+	width: 100%;
+	display: flex;
+}
